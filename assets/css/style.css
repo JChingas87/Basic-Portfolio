@@ -1,3 +1,69 @@
+* {
+	box-sizing: border-box;
+  }
+
 body {
 	background-image: url("file:///Users/JChingas87/Desktop/Bootcamp/homework/homework1/Basic-Portfolio/assets/images/concrete-texture/concrete-texture.png");
+	width: 100%;
+	z-index: -2;
+}
+
+.header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 100%;
+	height: 75px;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.joe-h1 {
+	background-color: #4aaaa5;
+	width: 325px;
+	height: 75px;
+	color: white;	
+	text-align: center;
+	top: 0px;
+	position: absolute;
+}
+
+.links {
+	float: left;
+	padding-left: 700px;
+}
+
+.about-me {
+	width: 650px;
+	margin-left: 200px;
+	background-color: #ffffff;
+	margin-top: 100px;
+	position: absolute;
+}
+
+.about-me-pic {
+	width: 150px;
+	height: 150px;
+
+}
+
+.about-h1 {
+	color: #4aaaa5
+}
+
+.para-1 {
+	float: left;
+}
+
+.footer-para {
+	background-color: #666666;
+	width: 100%;
+	height: 75px;
+	z-index: -1;
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	text-align: center;
 }
