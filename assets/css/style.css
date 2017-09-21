@@ -10,9 +10,8 @@ body {
 
 .header {
 	background-color: #ffffff;
+	border-bottom: solid 2px;
 	border-color: #cccccc;
-	border-bottom-width: 15px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
 	width: 100%;
 	height: 75px;
 	z-index: -1;
@@ -29,21 +28,33 @@ body {
 	color: white;	
 	text-align: center;
 	top: 0px;
-	position: absolute;
+	line-height: -30px;
+	position: relative;
 	margin-left: 175px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	border-bottom: solid 2px;
+	border-color: #cccccc;
 }
 
 .links {
 	float: left;
-	padding-left: 700px;
+	margin-left: 795px;
+	margin-top: 27px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: -30px;
 }
 
 .about-me {
 	width: 45%;
+	height: 435px;
 	margin-left: 175px;
 	background-color: #ffffff;
-	margin-top: 115px;
+	margin-top: 105px;
 	position: absolute;
+	color: #777777;
+	border: solid 1px;
+	border-color: #dddddd;
 
 }
 
@@ -54,12 +65,22 @@ body {
 }
 
 .about-h1 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	font-size: 30px;
-	color: #4aaaa5
+	color: #4aaaa5;
+	border-bottom: solid 2px;
+	border-color: #dddddd;
+
 }
 
 .para-1 {
-	float: left;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 28px;
+}
+
+.para-2 {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 28px;
 }
 
 .footer-para {
@@ -71,6 +92,11 @@ body {
 	left: 0px;
 	position: absolute;
 	text-align: center;
+	color: #B9B9B9;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	border-top: solid 7px;
+	border-color:  #4aaaa5;
 
 }
 
@@ -78,16 +104,30 @@ body {
 	background-color: #ffffff;
 	position: absolute;
 	width: 20%;
+	height: 150px;
 	margin-left: 760px;
-	margin-top: 115px;
+	margin-top: 105px;
+	border: solid 1px;
+	border-color: #dddddd;
+
 }
 
 .github, .linkedin, .stack {
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
+	align: center;
 }
 
 h3 {
-	color: #4aaaa5
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #4aaaa5;
+	font-size: 20px;
+	text-align: center;
 }
 
+a {
+	color: #777777;
+	text-decoration: none;
+	
+
+}
